@@ -38,6 +38,7 @@ body {
     max-width: 640px;
     margin: 0 40px;
     justify-content: center;
+    gap: 0;
 }
 
 .menu-btn,
@@ -77,4 +78,33 @@ body {
     background-color: #065fd4;
     object-fit: cover;
     display: block;
+}
+
+.search-input {
+    height: 40px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-right: none;
+    border-radius: 20px 0 0 20px;
+    padding: 0 16px;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-input:focus {
+    border-color: #065fd4;
+}
+
+.search-btn {
+    width: 64px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 0 20px 20px 0;
+    background-color: #f8f8f8;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.search-btn:hover {
+    background-color: #f0f0f0;
 }
